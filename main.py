@@ -7,6 +7,8 @@ from discord import Embed
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 
+bt= 'MTIxMTUzNjc5MzYyMzcyODIxOQ.GzEn8Y.ZXPNbFZUU17FPh_oWaNS286-JhJ-MrSV8Zfbhs'
+
 intents = discord.Intents.default()
 intents.message_content = True
 intents.reactions = True
@@ -80,4 +82,4 @@ async def custom_help(ctx):
     
 
 
-bot.run(TOKEN)
+bot.run(bt)
